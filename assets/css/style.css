@@ -1,0 +1,134 @@
+/* This is the sizing for the title */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* This is the main overall color */
+body {
+    background-color: hsl(234, 100%, 88%);
+}
+
+/* This shows the color for the background of the first paragraph and the font and all headers alike */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* This styles for the header h1 */
+.header h1 {
+    display: inline-block;
+    font-size: 3vw; /* Relative font size */
+}
+
+/* This styles for the SEO text inside the header h1 */
+.header h1 .seo {
+    color: #a9b7f5;
+}
+
+/* This styles for header navigation */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw; /* Relative font size */
+}
+
+/* This styles for the header navigation list */
+.header div ul {
+    list-style-type: none;
+}
+
+/* This styles for the header navigation list items */
+.header div ul li {
+    display: inline-block;
+    margin-left: 2vw; /* Relative margin */
+}
+
+/* This styles for floating elements on the left */
+.float-left {
+    float: left;
+    margin-right: 2vw; /* Relative margin */
+}
+
+/* This styles for floating elements on the right */
+.float-right {
+    float: right;
+    margin-left: 2vw; /* Relative margin */
+}
+
+/* This styles for the content section */
+.content {
+    width: 70%; /* Adjusted width for better fitting */
+    margin: 0 auto; /* Centering the content */
+    padding: 20px; /* Added padding for better readability */
+}
+
+/* This styles for the individual sections */
+section {
+    margin-bottom: 3vh; /* Relative margin between sections */
+}
+
+/* This styles for section headings */
+section h2 {
+    font-size: 2.5vw; /* Relative font size */
+    margin-bottom: 1vh; /* Relative margin */
+}
+
+/* This styles for section paragraphs */
+section p {
+    font-size: 1.6vw; /* Relative font size */
+    line-height: 1.5; /* Adjusted line height for better readability */
+}
+
+/* This styles for section images */
+section img {
+    max-width: 100%; /* Ensuring images don't overflow their containers */
+    height: auto; /* Maintaining aspect ratio */
+    display: block; /* Ensuring images don't have inline spacing issues */
+    margin-bottom: 1vh; /* Relative margin */
+}
+
+/* This styles for the benefits section */
+.benefits {
+    width: 70%; /* Adjusted width for better fitting */
+    margin: 0 auto; /* Centering the benefits section */
+    padding: 20px; /* Added padding for better readability */
+    background-color: #2589bd; /* Updated background color */
+    color: #ffffff; /* Updated text color */
+}
+
+/* This styles for individual benefit sections */
+.benefits article {
+    margin-bottom: 3vh; /* Relative margin between benefit sections */
+}
+
+/* This styles for benefit headings */
+.benefits article h3 {
+    font-size: 2vw; /* Relative font size */
+    margin-bottom: 1vh; /* Relative margin */
+}
+
+/* This styles for benefit paragraphs */
+.benefits article p {
+    font-size: 1.5vw; /* Relative font size */
+    line-height: 1.5; /* Adjusted line height for better readability */
+}
+
+/* This styles for the footer section */
+footer {
+    text-align: center; /* Centering the content */
+    padding: 20px; /* Added padding for better readability */
+    background-color: #2a607c; /* Updated background color */
+    color: #ffffff; /* Updated text color */
+}
+
+/* This styles for footer paragraphs */
+footer p {
+    font-size: 1.4vw; /* Relative font size */
+    margin-bottom: 1vh; /* Relative margin */
+}
