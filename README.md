@@ -7,6 +7,8 @@ I labeled the style sheetand changed the sizing on certain elements.
 
 # Repository [Link](https://github.com/RoseBenson/ProjectUno)
 
+# Deployed [Link](https://rosebenson.github.io/SuperOne/)
+
 
 ## Table of Contents 
 
